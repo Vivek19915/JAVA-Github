@@ -115,7 +115,7 @@ public class q1 {
         System.out.println("Employee position ="+ joy.getPosition());
         System.out.println("Employee department ="+ joy.getDepartment());
         System.out.println("Employee id number ="+ joy.getId_number());
-        
+
     }
 }
 
