@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 class circle{
     double radius;
     double PI = 3.14159;
@@ -40,6 +42,13 @@ class circle{
 
 public class q6 {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter radius of circle");
+        circle circle_1 = new circle(input.nextDouble());
+
+        System.out.println("Area = "+circle_1.getArea());
+        System.out.println("Diameter = "+circle_1.getDiameter());
+        System.out.println("Circumference  = "+ circle_1.getCircumference());
 
     }
 }
