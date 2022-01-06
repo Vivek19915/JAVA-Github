@@ -5,7 +5,7 @@ class Student {
     //Make each attribute protected:-
 //    means sare variables samne protected laga jo
 
-   protected String name, fatherName, currentAddress, permanentAddress, phoneNumber, emailID;
+    protected String name, fatherName, currentAddress, permanentAddress, phoneNumber, emailID;
     protected int regNo;
 
     public String getName() {
@@ -120,11 +120,11 @@ class PGStudent extends Student {
         return pastDegree;
 
     }
-
+//this is also constructer but with arguments
     public void setPastDegree(String pastDegree) {
         this.pastDegree = pastDegree;
     }
-
+//and thse are gette setter it user want to take input from user
     public int getMarks() {
         return marks;
     }
@@ -132,7 +132,7 @@ class PGStudent extends Student {
     public void setMarks(int marks) {
         this.marks = marks;
     }
-
+// this is constructer for pgstudent class
     public PGStudent() {
     }
 }
