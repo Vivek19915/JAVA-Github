@@ -28,15 +28,17 @@ class calculator_processing{
 
 
 //        button1.setBounds(200,240,70,20);
+
+        //NOTE ACTION LISTENER ARE ONLY APPLCABLE ON BUTTONS
         minus.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int num1  = Integer.parseInt(textField1.getText());
-                int num2 = Integer.parseInt(textField2.getText());
-                int z = num1-num2;
+                int num1  = Integer.parseInt(textField1.getText());   //HERE WE CONVERT STRING TO INT
+                int num2 = Integer.parseInt(textField2.getText());      //HERE WE CONVERT STRING TO INT
+                int z = num1-num2;                   //HERE OUR OPERATION WORKS OUT
 
-                textField3.setText(Integer.toString(z));
-                textField3.getText();
+                textField3.setText(Integer.toString(z));     //HERE WE CONEVERT OUR INTO TO STRING
+                textField3.getText();                       //here we print our output
             }
         });
 
