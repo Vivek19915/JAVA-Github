@@ -1,6 +1,8 @@
 package com.company;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
@@ -46,7 +48,7 @@ class awtapp2{
         textfiled1.setForeground(Color.yellow);                  //foregrounfd is used to set color of text
 
 
-        label1.setBounds(40,100,220,30);
+        label1.setBounds(40,80,220,30);
         label1.setText("hello vivek");
 
 
@@ -63,6 +65,16 @@ class awtapp2{
         frame.setBackground(Color.green);
         frame.setVisible(true);
 
+        //now we use action listener oon button
+        button1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //ab iske ander hum jo likhege jab button par click hoga toh oske baad kyanhoga
+                //toh me chahta hu jab button par click ho
+//                toh uske badd hello vivek hello ayush me change ho jayege/
+                label1.setText("hello ayush");
+            }
+        });
         // now to close window we use windows listener
         frame.addWindowListener(new WindowAdapter() {
             @Override
