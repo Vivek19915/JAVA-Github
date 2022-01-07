@@ -8,7 +8,7 @@ class calculator_processing{
     //CONSTRUCTOR
     public calculator_processing(){
         Frame frame = new Frame("CALCULATOR");
-        Label label1 = new Label();
+        Label label1 = new Label("My calculator");
         Button button1  = new Button("calculate");
 
 
