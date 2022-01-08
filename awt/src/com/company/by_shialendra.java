@@ -32,14 +32,14 @@ public class by_shialendra {
         frameCal.setSize(240,300);
         frameCal.setVisible(true);
 //
-//       firstText.setBounds(2,5,10,10);
-//       secondText.setBounds(14,5,10,10);
-//        plusBtn.setBounds(2,17,5,5);
-//        minusBtn.setBounds(10,17,5,5);
-//        divideBtn.setBounds(17,17,5,5);
-//        minusBtn.setBounds(24,17,5,5);
-//        clearBtn.setBounds(31,17,5,5);
-//        outputText.setBounds(2,20,10,10);
+       firstText.setBounds(2,5,10,10);
+       secondText.setBounds(14,5,10,10);
+        plusBtn.setBounds(2,17,5,5);
+        minusBtn.setBounds(10,17,5,5);
+        divideBtn.setBounds(17,17,5,5);
+        minusBtn.setBounds(24,17,5,5);
+        clearBtn.setBounds(31,17,5,5);
+        outputText.setBounds(2,20,10,10);
 
         //first text And second text
         firstText.addActionListener(new ActionListener() {
@@ -55,7 +55,7 @@ public class by_shialendra {
                 secondText.setText(secondText.getText());
             }
         });
-
+//        frameCal.setLayout(null);
 
         //when plus button clicked
         plusBtn.addActionListener(new ActionListener() {
@@ -114,7 +114,7 @@ public class by_shialendra {
                 outputText.setText("");
             }
         });
-        frameCal.setLayout(null);
+
 
 
 

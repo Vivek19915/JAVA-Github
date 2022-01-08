@@ -57,8 +57,8 @@ class calculator_processing{
         divide.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int num1  = Integer.parseInt(textField1.getText());
-                int num2 = Integer.parseInt(textField2.getText());
+                double num1  = Integer.parseInt(textField1.getText());
+                double num2 = Integer.parseInt(textField2.getText());
                 double z = num1/num2;
 
                 textField3.setText(Double.toString(z));

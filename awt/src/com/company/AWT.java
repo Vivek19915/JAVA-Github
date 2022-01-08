@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -42,10 +43,12 @@ class awtapp2{
         Label label1 = new Label("hello everyone")   ;         //to add text in your but no  one can chage it use label class
         Button button1  =  new Button("click me");         // now we make object for button to use button class
         TextField textfiled1  =  new TextField();                 //this is use so that user can enter text in our progra
+        JComboBox hello= new JComboBox();
 
         textfiled1.setBounds(40 ,120,220,30);
         textfiled1.setBackground(Color.red);
         textfiled1.setForeground(Color.yellow);                  //foregrounfd is used to set color of text
+
 
 
         label1.setBounds(40,80,220,30);
